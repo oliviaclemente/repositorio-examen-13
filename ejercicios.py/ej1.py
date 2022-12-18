@@ -5,4 +5,10 @@ def minion(string):
   for i in range(0,len(string),1)
     letra= string[i]
     if letra[0] in vocal:
-      k+=
+      k+= string.count(letra)
+    else:
+      s += string.count(letra)
+  if k<s:
+    return("Steven", s)
+  else:
+    return()
