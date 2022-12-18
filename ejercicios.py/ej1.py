@@ -11,4 +11,7 @@ def minion(string):
   if k<s:
     return("Steven", s)
   else:
-    return()
+    return("Kevin",k)
+print(minion("BANANA"))
+
+if __name__ ==
