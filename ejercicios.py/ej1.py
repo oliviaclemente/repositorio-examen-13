@@ -14,4 +14,5 @@ def minion(string):
     return("Kevin",k)
 print(minion("BANANA"))
 
-if __name__ ==
+if __name__ == '__main__'  
+  minion("BANANA")
