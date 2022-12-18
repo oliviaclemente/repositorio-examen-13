@@ -18,4 +18,5 @@ if __name__='__main__':
         [8, 5, 2],
         [9, 6, 3]]
   rotate(mat)
-  F
+  for r in mat:
+      print(r)
